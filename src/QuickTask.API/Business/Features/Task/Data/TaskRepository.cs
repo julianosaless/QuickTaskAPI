@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+
 using QuickTaskAPI.Business.Data;
 
 namespace QuickTaskAPI.Business.Features.Task.Data

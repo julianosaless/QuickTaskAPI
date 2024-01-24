@@ -28,6 +28,9 @@ namespace QuickTaskAPI.Business.Features.Task
             {
                 Id = response.Id,
                 Title = response.Title,
+                Description = response.Description,
+                StartDate = response.StartDate,
+                EndDate = response.EndDate,
                 IsCompleted = response.IsCompleted ? 'Y' : 'N'
             };
         }
