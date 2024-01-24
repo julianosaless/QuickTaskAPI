@@ -9,12 +9,8 @@
   - [Instalação](#instalação)
 - [Uso](#uso)
   - [Endpoints](#endpoints)
-  - [Paginação](#paginação)
 - [Testes](#testes)
-- [Documentação](#documentação)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
-- [Agradecimentos](#agradecimentos)
+
 
 ## Começando
 
@@ -36,9 +32,9 @@ dotnet restore
 dotnet build
 dotnet test
 dotnet run
+```
 
-
-#Uso
+# Uso
 Explique como usar o seu projeto, forneça exemplos de código e descreva quaisquer opções de configuração.
 
 Endpoints
@@ -52,8 +48,7 @@ DELETE /api/v1/task/{id}: Excluir uma tarefa.
 
 
 ### Payload
-
-#Post
+```bash
 
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -63,6 +58,7 @@ DELETE /api/v1/task/{id}: Excluir uma tarefa.
   "endDate": "2024-01-24T18:00:06.291Z",
   "isCompleted": "N"
 }
+```
 
 #Testes
 dotnet test
