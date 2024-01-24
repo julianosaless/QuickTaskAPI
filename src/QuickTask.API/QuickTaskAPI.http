@@ -1,0 +1,6 @@
+@QuickTaskAPI_HostAddress = http://localhost:5094
+
+GET {{QuickTaskAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
