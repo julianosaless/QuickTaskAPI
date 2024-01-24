@@ -38,7 +38,8 @@ dotnet run
 Explique como usar o seu projeto, forneça exemplos de código e descreva quaisquer opções de configuração.
 
 Endpoints
-http://localhost:5094
+https://localhost:5094/swagger/index.html
+https://localhost:7215/swagger/index.html
 
 GET /api/v1/task: Obter uma lista de tarefas.
 GET /api/v1/task/{id}: Obter detalhes de uma tarefa específica.
@@ -60,5 +61,5 @@ DELETE /api/v1/task/{id}: Excluir uma tarefa.
 }
 ```
 
-#Testes
+# Testes
 dotnet test
